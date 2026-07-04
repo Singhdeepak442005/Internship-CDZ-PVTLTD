@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Social Media Profile Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Fake Social Media Profile Detector</h1>
+
+    <form action="/check" method="POST">
+
+        <label>Followers:</label>
+        <input type="number" name="followers" required>
+
+        <label>Following:</label>
+        <input type="number" name="following" required>
+
+        <label>Posts:</label>
+        <input type="number" name="posts" required>
+
+        <label>Profile Picture:</label>
+        <select name="profile_pic">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <label>Bio:</label>
+        <textarea name="bio" rows="4" required></textarea>
+
+        <button type="submit">Check Profile</button>
+
+    </form>
+
+    {% if result %}
+        <div class="result">
+            <h2>{{ result }}</h2>
+
+            {% if reasons %}
+                <h3>Reasons:</h3>
+                <ul>
+                    {% for reason in reasons %}
+                        <li>{{ reason }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>

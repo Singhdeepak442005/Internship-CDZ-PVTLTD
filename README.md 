@@ -1,0 +1,158 @@
+# Cyber Security Internship Projects
+
+## 📌 Overview
+
+This repository contains the cybersecurity internship projects completed using Python. Each task demonstrates practical cybersecurity concepts such as file integrity monitoring, fake profile detection, web vulnerability scanning, and AES-256 file encryption.
+
+---
+
+## 🚀 Internship Tasks
+
+### ✅ Task 1 – File Integrity Monitor
+
+A Python-based tool that detects file modifications using SHA-256 hashing.
+
+**Features**
+
+- SHA-256 Hash Generation
+- File Integrity Verification
+- Detect File Changes
+- JSON Hash Storage
+
+---
+
+### ✅ Task 2 – Fake Social Media Profile Detector
+
+A Flask web application that predicts whether a social media profile appears genuine or suspicious based on user profile information.
+
+**Features**
+
+- Flask Web Interface
+- Fake Profile Detection
+- Simple Rule-Based Analysis
+- Responsive UI
+
+---
+
+### ✅ Task 3 – Web Vulnerability Scanner
+
+A lightweight Python scanner that performs basic security testing on websites.
+
+**Features**
+
+- SQL Injection Detection
+- Cross-Site Scripting (XSS) Detection
+- Security Header Analysis
+- HTML Form Detection
+
+---
+
+### ✅ Task 4 – AES-256 File Encryptor
+
+A secure file encryption and decryption tool using AES-256 encryption.
+
+**Features**
+
+- AES-256 Encryption
+- Secure File Decryption
+- Automatic Secret Key Generation
+- Protect Sensitive Files
+
+---
+
+## 🛠 Technologies Used
+
+- Python 3
+- Flask
+- HTML
+- CSS
+- Requests
+- BeautifulSoup4
+- Cryptography
+- JSON
+- hashlib
+
+---
+
+## 📂 Project Structure
+
+```text
+Internship_CDZ/
+│
+├── README.md
+│
+├── Task_1
+│   ├── file_integrity_monitor.py
+│   ├── README.md
+│   └── hashes.json
+│
+├── Task_2
+│   ├── fake_social_media_profile_detector.py
+│   ├── templates/
+│   ├── static/
+│   └── README.md
+│
+├── Task_3
+│   ├── web_vulnerability_scanner.py
+│   ├── report.txt
+│   └── README.md
+│
+└── Task_4
+    ├── aes_file_encryptor.py
+    ├── report.txt
+    ├── secret.key
+    ├── sample.txt
+    ├── sample.txt.encrypted
+    └── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+Clone the repository
+
+```bash
+git clone https://github.com/Singhdeepak442005/Internship_CDZ.git
+```
+
+Go to the project directory
+
+```bash
+cd Internship_CDZ
+```
+
+Run any task
+
+Example:
+
+```bash
+cd Task_1
+python3 file_integrity_monitor.py
+```
+
+---
+
+## 🎯 Skills Learned
+
+- Python Programming
+- Cryptography
+- Web Security
+- File Integrity Monitoring
+- AES Encryption
+- Flask Development
+- SQL Injection Testing
+- XSS Detection
+- Security Headers Analysis
+
+---
+
+## 👨‍💻 Author
+
+**Deepak Singh**
+
+Cyber Security Internship Projects
+
+GitHub
+
+https://github.com/Singhdeepak442005

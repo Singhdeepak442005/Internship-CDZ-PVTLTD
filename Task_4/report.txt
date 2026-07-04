@@ -1,0 +1,57 @@
+Task 4: AES-256 File Encryptor
+
+Author:
+Deepak Singh
+
+Objective:
+To develop a secure file encryption and decryption tool using the AES-256 encryption algorithm.
+
+Description:
+The AES-256 File Encryptor is a Python-based cybersecurity project that encrypts and decrypts files using the cryptography library. The program generates a secure encryption key and protects files from unauthorized access.
+
+Features:
+- AES-256 File Encryption
+- AES-256 File Decryption
+- Automatic Secret Key Generation
+- Secure File Protection
+- Command-Line Interface (CLI)
+
+Technologies Used:
+- Python 3
+- cryptography Library
+
+Input File:
+sample.txt
+
+Generated Files:
+- sample.txt.encrypted
+- secret.key
+
+Testing:
+
+Encryption Test
+---------------
+Input:
+Choice: 1
+File Name: sample.txt
+
+Output:
+[+] Encryption Key Generated Successfully.
+[✓] File Encrypted Successfully.
+Encrypted File: sample.txt.encrypted
+
+Decryption Test
+---------------
+Input:
+Choice: 2
+Encrypted File Name: sample.txt.encrypted
+
+Output:
+[✓] File Decrypted Successfully.
+Decrypted File: sample.txt
+
+Result:
+The program successfully encrypted the input file using AES-256 encryption and generated a secret key. The encrypted file was successfully decrypted back to its original content, confirming that the encryption and decryption process works correctly.
+
+Status:
+Task Completed Successfully.
